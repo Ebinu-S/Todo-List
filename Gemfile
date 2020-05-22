@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', git: 'https://github.com/larskanis/sqlite3-ruby', branch: 'add-gemspec'
+gem 'sqlite3', git: 'https://github.com/larskanis/sqlite3-ruby', branch: 'add-gemspec', group: :development
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -53,3 +53,8 @@ gem 'autoprefixer-rails', '~> 9.7.6'
 
 # gem "actionview", ">= 5.2.4.2"
 # gem "activejob", ">= 4.2.11"
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
