@@ -5,6 +5,8 @@ class ListsController < ApplicationController
   # GET /lists.json
   def index
     @lists = List.all
+    @list = List.new
+
   end
 
   # GET /lists/1

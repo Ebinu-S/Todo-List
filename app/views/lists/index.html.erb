@@ -20,7 +20,7 @@
         <%= f.submit "Completed", class: 'btn btn-outline-secondary btn-sm' %>
         <%end%></center>
         </td>
-        <td><%= link_to 'Destroy', list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', list, class: 'btn btn-outline-danger btn-sm', method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% else%>
     <tr>
@@ -32,7 +32,7 @@
         <%= f.submit "Not Complete", class: 'btn btn-outline-secondary btn-sm' %>
         <%end%></center>
         </td>
-        <td><%= link_to 'Destroy', list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', list, class: 'btn btn-outline-danger btn-sm', method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <%end%>
     <% end %>
