@@ -41,4 +41,5 @@
 
 <br>
 
-<%= link_to 'New List', new_list_path %>
+<%= link_to 'Delete Completed', home_trash_em_path, data: { confirm: 'Are you sure?'} %>|
+<%= link_to 'Delete All', home_trash_em_all_path, data: { confirm: 'Are you sure?'} %>
