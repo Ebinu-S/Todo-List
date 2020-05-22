@@ -50,3 +50,6 @@ gem 'bootstrap', '~> 4.5.0'
 gem 'coffee-script-source', '~> 1.11', '>= 1.11.1'
 
 gem 'autoprefixer-rails', '~> 9.7.6'
+
+# gem "actionview", ">= 5.2.4.2"
+# gem "activejob", ">= 4.2.11"
