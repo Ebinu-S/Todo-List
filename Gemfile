@@ -45,12 +45,14 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# gem 'bootstrap', '~> 4.5.0'
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'bootstrap', '~> 4.5.0'
+# gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 gem 'coffee-script-source', '~> 1.11', '>= 1.11.1'
 
 gem 'autoprefixer-rails', '~> 9.7.6'
+
+gem 'jquery-rails'
 
 # gem "actionview", ">= 5.2.4.2"
 # gem "activejob", ">= 4.2.11"
